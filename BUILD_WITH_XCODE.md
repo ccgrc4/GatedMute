@@ -24,8 +24,8 @@ Due to Swift SDK compatibility issues with command-line tools, **Xcode is the re
 1. In Xcode's file navigator (left sidebar), **right-click** on the `GatedMuteController` folder
 2. Choose **Add Files to "GatedMuteController"...**
 3. Navigate to the project directory and select:
-   - `Sources/GatedMuteController/MIDIController.swift`
-   - `Sources/GatedMuteController/main.swift`
+   - `MIDIController.swift`
+   - `main.swift`
 4. Make sure **"Copy items if needed"** is **checked**
 5. Click **Add**
 
@@ -36,7 +36,7 @@ Due to Swift SDK compatibility issues with command-line tools, **Xcode is the re
 3. Add our `AppDelegate.swift`:
    - **Right-click** on project folder
    - **Add Files to "GatedMuteController"...**
-   - Select `Sources/GatedMuteController/AppDelegate.swift`
+   - Select `AppDelegate.swift`
    - Check **"Copy items if needed"**
    - Click **Add**
 

@@ -18,7 +18,12 @@ let package = Package(
         .executableTarget(
             name: "GatedMuteController",
             dependencies: [],
-            path: "Sources",
+            path: ".",
+            sources: [
+                "main.swift",
+                "AppDelegate.swift",
+                "MIDIController.swift"
+            ],
             linkerSettings: [
                 .linkedFramework("Cocoa"),
                 .linkedFramework("CoreMIDI"),

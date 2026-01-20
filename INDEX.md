@@ -14,9 +14,9 @@ Start here if you just want to build and run:
 - **[INDEX.md](INDEX.md)** - This file
 
 ### 💻 Source Code
-- **[Sources/GatedMuteController/main.swift](Sources/GatedMuteController/main.swift)** - Application entry point
-- **[Sources/GatedMuteController/AppDelegate.swift](Sources/GatedMuteController/AppDelegate.swift)** - Menu bar UI and app lifecycle
-- **[Sources/GatedMuteController/MIDIController.swift](Sources/GatedMuteController/MIDIController.swift)** - Core MIDI logic and Mackie Control protocol
+- **[main.swift](main.swift)** - Application entry point
+- **[AppDelegate.swift](AppDelegate.swift)** - Menu bar UI and app lifecycle
+- **[MIDIController.swift](MIDIController.swift)** - Core MIDI logic and Mackie Control protocol
 
 ### ⚙️ Configuration
 - **[Info.plist](Info.plist)** - macOS app configuration (bundle ID, LSUIElement, etc.)
@@ -45,10 +45,10 @@ Start here if you just want to build and run:
 
 #### **...understand the code**
 👉 Start with: **[PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)** (Technical Architecture section)
-👉 Then read: **[MIDIController.swift](Sources/GatedMuteController/MIDIController.swift)**
+👉 Then read: **[MIDIController.swift](MIDIController.swift)**
 
 #### **...customize the mappings**
-👉 Edit: **[MIDIController.swift](Sources/GatedMuteController/MIDIController.swift)** (see `mapNoteToMackieControl()` function)
+👉 Edit: **[MIDIController.swift](MIDIController.swift)** (see `mapNoteToMackieControl()` function)
 
 #### **...distribute the app**
 👉 Go to: **[BUILD_WITH_XCODE.md](BUILD_WITH_XCODE.md)** → "Creating an Application Bundle"
