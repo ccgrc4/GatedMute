@@ -23,7 +23,7 @@
 
 6. **Add the source files**:
    - Right-click on project folder → **Add Files**
-   - Add these 3 files from `Sources/GatedMuteController/`:
+   - Add these 3 files from the project root:
      - `main.swift`
      - `AppDelegate.swift`
      - `MIDIController.swift`

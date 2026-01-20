@@ -30,6 +30,7 @@ swiftc -o "$MACOS_DIR/$APP_NAME" \
     -framework CoreMIDI \
     -framework CoreFoundation \
     -target arm64-apple-macos12.0 \
+    main.swift \
     AppDelegate.swift \
     MIDIController.swift
 

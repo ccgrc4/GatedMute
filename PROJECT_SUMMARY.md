@@ -126,7 +126,7 @@ Provides a minimal, unobtrusive interface:
 
 1. **Open Xcode**
 2. **Create macOS App project** (name: GatedMuteController)
-3. **Add source files** from `Sources/GatedMuteController/`
+3. **Add source files** from the project root
 4. **Set LSUIElement = YES** in Info.plist
 5. **Build and Run** (⌘R)
 
